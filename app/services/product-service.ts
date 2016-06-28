@@ -11,7 +11,7 @@ export class Product {
 }
 
 @Injectable()
-export default class ProductService {
+export class ProductService {
   getProducts(): Array<Product> {
     return products.map(p => new Product(p.id, p.title, p.price, p.rating, p.description, p.categories));
   }
