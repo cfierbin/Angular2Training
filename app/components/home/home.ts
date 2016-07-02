@@ -8,7 +8,6 @@ import ProductItemComponent from '../product-item/product-item';
 
 @Component({
     selector: 'auction-home-page',
-    providers: [ProductService],
     directives: [
         CarouselComponent,
         ProductItemComponent
