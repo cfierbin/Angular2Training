@@ -16,7 +16,8 @@ import {ProductService} from '../../services/product-service';
 
 @Component({
   selector: 'auction-search',
-  providers: [ProductService]
+  providers: [ProductService],
+  directives: [REACTIVE_FORM_DIRECTIVES]
 })
 export default class SearchComponent {
   categories: string[];

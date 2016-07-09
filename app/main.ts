@@ -1,6 +1,7 @@
 import {bootstrap} from '@angular/platform-browser-dynamic';
 import {LocationStrategy, HashLocationStrategy} from '@angular/common';
 import {provideRouter} from '@angular/router';
+import {provideForms, disableDeprecatedForms} from "@angular/forms";
 
 import ApplicationComponent from './components/application/application';
 import HomeComponent from './components/home/home';
@@ -13,5 +14,7 @@ bootstrap(ApplicationComponent, [
         {path: 'products/:productId', component: ProductDetailComponent}
     ]),
     {provide: LocationStrategy, useClass: HashLocationStrategy},
+    disableDeprecatedForms(),
+    provideForms(),
     ProductService
 ]);
