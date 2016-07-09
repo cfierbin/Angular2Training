@@ -13,6 +13,7 @@ System.config({
         '@angular/common'                  : {main: 'index.js'},
         '@angular/compiler'                : {main: 'index.js'},
         '@angular/router'                  : {main: 'index.js'},
+        '@angular/forms'                   : {main: 'index'},
         '@angular/platform-browser'        : {main: 'index.js'},
         '@angular/platform-browser-dynamic': {main: 'index.js'}
     }
