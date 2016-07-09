@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3ab2b2a5-6fdd-4a30-9239-c4fad4269253" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/search/search.ts" afterPath="$PROJECT_DIR$/app/components/search/search.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main.ts" afterPath="$PROJECT_DIR$/app/main.ts" />
     </list>
     <ignored path="angular-seed.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="search.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/components/search/search.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+            <state relative-caret-position="170">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -46,7 +45,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/main.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -123,8 +122,8 @@
         <option value="$PROJECT_DIR$/app/components/search/search.html" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/systemjs.config.js" />
-        <option value="$PROJECT_DIR$/app/components/search/search.ts" />
         <option value="$PROJECT_DIR$/app/main.ts" />
+        <option value="$PROJECT_DIR$/app/components/search/search.ts" />
       </list>
     </option>
   </component>
@@ -518,15 +517,15 @@
       <workItem from="1467453940660" duration="7488000" />
       <workItem from="1467913563260" duration="5184000" />
       <workItem from="1467995678384" duration="2065000" />
-      <workItem from="1468064879240" duration="2947000" />
+      <workItem from="1468064879240" duration="4036000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52795000" />
+    <option name="totallyTimeSpent" value="53884000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="73" y="5" width="1233" height="735" extended-state="1" />
+    <frame x="73" y="5" width="1233" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20377979" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -894,21 +893,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/search/search.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/main.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/search/search.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

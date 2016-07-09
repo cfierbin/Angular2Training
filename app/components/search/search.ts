@@ -11,11 +11,7 @@ import {ProductService} from '../../services/product-service';
 
 @Component({
   selector: 'auction-search',
-  templateUrl: 'app/components/search/search.html'
-})
-
-@Component({
-  selector: 'auction-search',
+  templateUrl: 'app/components/search/search.html',
   providers: [ProductService],
   directives: [REACTIVE_FORM_DIRECTIVES]
 })
